@@ -1,0 +1,181 @@
+
+/* body styling */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* h1 heading */
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* h2 heading */
+h2 {
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+/* paragraph */
+p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---- ID Selectors ---- */
+
+#header {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+}
+
+#header p {
+    color: #ccc;
+    margin: 0;
+}
+
+#footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+/* ---- Class Selectors ---- */
+
+/* main wrapper */
+.main {
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* each section */
+.section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+
+/* ---- Box Model ---- */
+/* content + padding + border + margin */
+
+.box-demo {
+    width: 250px;
+
+    /* padding: space inside the box */
+    padding: 15px;
+
+    /* border: line around the box */
+    border: 3px solid #27ae60;
+
+    /* margin: space outside the box */
+    margin: 15px 0;
+
+    background-color: #d5f5e3;
+}
+
+
+/* ---- Colors ---- */
+
+.red-box {
+    background-color: red;                     /* color name */
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.blue-box {
+    background-color: #3498db;                 /* hex code */
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.green-box {
+    background-color: rgb(39, 174, 96);        /* rgb */
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.purple-box {
+    background-color: rgba(142, 68, 173, 0.6); /* rgba - transparent */
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+/* ---- Fonts ---- */
+
+.big {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+
+/* ---- Button ---- */
+
+.btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1f6fa0;
+}
